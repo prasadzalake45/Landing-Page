@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="lading.css">
+</head>
+<body>
+ 
+    <header class="header">
+        <div class="logo0" id="prasad">
+
+            <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="Original Troumbones">
+
+        </div>
+     <nav>
+        <ul>
+            <li><a class="link" href="https://www.youtube.com/watch?v=K8KAbu45-kE&list=RDK8KAbu45-kE&start_radio=1">Features</a></li>
+            <li><a href="#">How It Works</a></li>
+            <li><a href="#">Pricing</a></li>
+        </ul>
+     </nav>
+    </header>
+    
+    <main>
+    <div class="container">
+        <h2>Handcrafted, home-made masterpieces</h2>
+        <input  class="input" type="email" placeholder="Enter your email address">
+        <button class="btn">GET STARTED</button>
+
+        
+    </div>
+
+    <div class="containerg">
+        
+        <section class="section">
+            <div class="grid">
+                <div class="logo">
+                    <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ7iiRiHjaBFBUO_ESsSpEEp3eWYujVQGIdrdIsVrMqOcI__Rwc" alt="">
+                </div>
+                <div class="info">
+                    <h2>Premium Materials</h2>
+                    <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+                </div>
+
+            </div>
+
+            <div class="grid">
+                <div class="logo">
+                    <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTRKj3y6x7KBeQtbDrgcIWErXvQDYJywcb7mGhvkluAArhqDh1j" alt="">
+                </div>
+                <div class="info">
+                    <h2>Fast Shipping</h2>
+                    <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+                </div>
+
+
+                
+
+            </div>
+            <div class="grid">
+                <div class="logo">
+                    <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQthsWf0P3rjNXLssAOZmM9EjdrR9JxpxKYSzCtdrRVJlQeU8Cd" alt="">
+                </div>
+                <div class="info">
+                    <h2>Quality Assurance</h2>
+                    <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+                </div>
+            </div>
+
+
+        </section>
+
+        <div class="img">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" title="Roman Carnival Overture Op. 9 for Five Trombones" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
+        <div class="pricing">
+        <div class="box">
+                <div class="level">  TENOR TROMBONE</div>
+                
+                <h2>$600</h2>
+                <div>
+                    <ol>
+                        <li>Lorem ipsum.</li>
+                        <li>Lorem ipsum.</li>
+                        <li>Lorem ipsum dolor.</li>
+                        <li>Lorem ipsum.</li>
+                    </ol>
+                </div>
+
+                <button class="btn-2" onclick="clicked()">SELECT</button>
+            
+            
+        </div>
+
+        <div class="box" >
+            <div class="level">  TENOR TROMBONE</div>
+            
+            <h2>$600</h2>''
+            <div>
+                <ol>
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum dolor.</li>
+                    <li>Lorem ipsum.</li>
+                </ol>
+            </div>
+
+            <button class="btn-2" onclick="clicked()">SELECT</button>
+        
+        </div>
+        <div class="box">
+            <div class="level">  TENOR TROMBONE</div>
+            
+            <h2>$600</h2>
+            <div>
+                <ol>
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum dolor.</li>
+                    <li>Lorem ipsum.</li>
+                </ol>
+            </div>
+
+            <button class="btn-2" onclick="clicked()">SELECT</button>
+        
+        </div>
+    </div>
+    </div>
+
+    
+
+   
+
+
+    </main>
+
+
+
+    <footer> 
+       <div class="copy">
+        <ul>
+            <li><a href="">Privacy</a></li>
+            <li><a href="">Terms</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+        <div class="copywrite">
+        <p>Copyright 2016, Original Trombones</p>
+        </div>
+       </div>
+
+    </footer>
+    <!-- <script>
+        let elem=document.getElementsByTagName('h2');
+        // elem[0].classList.add("bg_primary");
+        console.log(elem[0].innerHTML);
+        console.log(elem[0].innerText);
+         var tn=document.getElementsByTagName('button');
+        console.log(tn);
+
+        function clicked(){
+            console.log("Button is clicked");
+        }
+        window.onload=function(){
+            console.log("the window is loading");
+        }
+        var prev1=document.querySelectorAll(".box")[0].innerHTML;
+        var prev2=document.querySelectorAll(".box")[2].innerHTML;
+
+        // Box.addEventListener('mouseup',function(){
+        //     document.querySelectorAll(".box")[0].innerHTML="<b>Prasad Vilas zlake";
+        // document.querySelectorAll(".box")[2].innerHTML="<b>Full Stack Web Developer</b>";
+        //     console.log("clicked");
+        // })  
+        // Box.addEventListener('mousedown',function(){
+        //     document.querySelectorAll(".box")[0].innerHTML=prev1;
+        //     document.querySelectorAll(".box")[2].innerHTML=prev2;
+        //     console.log("clicked");
+        // })      
+
+
+    
+    //     Box.addEventListener('mouseover',function() {
+    //     console.log("mouse is over");
+    //   })
+    //   Box.addEventListener('mouse',function(){
+    //     console.log("mouse is out");
+    //   })
+    var pre=document.querySelectorAll('.box')[1].innerHTML;
+    function logkaro(){
+        document.querySelectorAll('.box')[1].innerHTML="<b>Prasad vilas zalake</b>";
+       
+        console.log("my name is prasad");
+    }
+    setInterval(logkaro,2000);
+    a=90;
+    console.log(`my number is ${a}`);
+    
+
+
+    </script> -->
+    <script src="landing.js"></script>
+    
+</body>
+
+</html>
